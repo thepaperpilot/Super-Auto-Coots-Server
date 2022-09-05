@@ -2,7 +2,7 @@
     "compilerOptions": {
       "noErrorTruncation": true,
       "target": "esnext",
-      "module": "esnext",
+      "module": "commonjs",
       "strict": true,
       "checkJs": false,
       "jsx": "preserve",
@@ -19,10 +19,7 @@
         "node"
       ],
       "lib": [
-        "esnext",
-        "dom",
-        "dom.iterable",
-        "scripthost"
+        "esnext"
       ]
     },
     "include": [
@@ -30,6 +27,11 @@
     ],
     "exclude": [
       "node_modules"
-    ]
+    ],
+    "extends": "ts-node/node16/tsconfig.json",
+    "ts-node": {
+      "files": true,
+      "transpileOnly": true
+    }
   }
   

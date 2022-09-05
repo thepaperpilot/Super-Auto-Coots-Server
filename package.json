@@ -6,9 +6,6 @@
   "scripts": {
     "start": "ts-node index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
     "socket.io": "^4.5.2",
@@ -21,5 +18,8 @@
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.7.1"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
