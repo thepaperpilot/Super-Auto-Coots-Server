@@ -1,0 +1,3 @@
+[submodule "alkatest-common"]
+	path = alkatest-common
+	url = https://github.com/thepaperpilot/alkatest-common
